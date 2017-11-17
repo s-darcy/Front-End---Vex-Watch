@@ -1,0 +1,48 @@
+.features {
+
+    margin-bottom: 92px;
+
+    &__title {
+        font-size: 40px;
+        color: $color-Black;
+        margin-bottom: 62px;
+        line-height: 48px;
+        font-family: 'JosefinSans-Light';
+    }
+
+    &__apple-watch {
+        max-width: 240px;
+        margin-left: 50px;
+    }
+
+    &__left-side,
+    &__right-side {
+        width: 357px;
+    }
+
+    &__right-side {
+        margin-left: 40px;
+    }
+
+    &__img {
+        width: 22px;
+        height: 30px;
+        margin-bottom: 6px;
+    }
+
+    &__heading {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        color: $color-Black;
+        line-height: 24px;
+        margin-bottom: 3px;
+    }
+
+    &__text {
+        color: $color-Mako;
+        font-size: 18px;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 22px;
+    }
+
+}//features

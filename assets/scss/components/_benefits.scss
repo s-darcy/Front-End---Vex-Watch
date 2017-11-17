@@ -1,0 +1,30 @@
+.benefits {
+    
+    background-color: $color-My-Sin;
+    padding-top: 94px;
+    padding-bottom: 95px;
+    margin-bottom: 77px;
+
+    &__img {
+        background-color: $color-My-Sin;
+    }
+
+    &__heading {
+        color: $color-White;
+        font-size: 40px;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 48px;
+        margin-top: 70px;
+        margin-bottom: 34px;
+    }
+
+    &__text-1,
+    &__text-2 {
+        color: $color-White;
+        font-size: 18px;
+        line-height: 22px;
+        font-family: 'JosefinSans-Light';
+    }
+
+}//beenfits
+

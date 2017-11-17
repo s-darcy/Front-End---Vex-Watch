@@ -1,0 +1,45 @@
+.testimonial {
+
+    margin-bottom: 76px;
+
+    & h2 {
+        font-size: 40px;
+        font-family: 'JosefinSans-Light';
+        margin-bottom: 73px;
+        line-height: 48px;
+        color: $color-Mine-Shaft;
+    }
+
+    &__quotation {
+        margin-bottom: 19px;
+    }
+
+    &__blockquote {
+        font-family: 'Lora-Italic';
+        border-left: none;
+        margin-bottom: 24px;
+        color: $color-Boulder;
+    }
+
+    &__headshot {
+        margin-bottom: 9px;
+        width: 46px;
+        height: 46px;
+    }
+
+    &__name {
+        font-family: 'Josefin Sans', sans-serif;
+        color: $color-Mine-Shaft-2;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__title {
+        font-family: 'JosefinSans-Light';
+        color: $color-Mine-Shaft-2;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 77px;
+    }
+
+}// .testimonial

@@ -1,0 +1,58 @@
+.subscription {
+
+    // background: linear-gradient(rgba(0, 0, 0, 0.7)), url( '../img/background-watch.png' ), no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url( '../img/background-watch.png' );
+
+    
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 75px;
+
+    &__title {
+        color: $color-White; 
+        margin-top: 84px;
+        font-size: 31px;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 37px;
+        margin-bottom: 34px;
+    }
+
+    &__text {
+        color: $color-White;
+        margin-bottom: 28px; 
+        line-height: 22px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 18px;
+    }
+
+    &__input {
+        height: 48px;
+        width: 350px;
+        border: 0px solid transparent;
+        border-radius: 100px 0px 0px 100px;
+        margin-right: -5px;
+    }
+
+    &__button {
+        background-color: #FEB341;
+        font-family: 'Josefin Sans', sans-serif;
+        color: $color-White;
+        height: 50px;
+        width: 127px;
+        border: 0px solid #FEB341;
+        // padding: 13px 35px 16px 31px;
+        line-height: 19px;
+        font-size: 16px;
+        border-radius: 0px 100px 100px 0px;
+        margin-bottom: 90px;
+    }
+
+}// subscribe
+
+#subscription__input::placeholder {
+    padding-left: 33px;
+    color: #B7B7B7;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'JosefinSans-Regular';
+}

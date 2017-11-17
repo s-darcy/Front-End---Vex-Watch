@@ -1,0 +1,23 @@
+.hero {
+
+    &__title {
+        font-family: 'JosefinSans-Light';
+        font-size: 60px;
+        color: $color-Mako;
+        line-height: 72px;
+        width: 560px;
+        margin-bottom: 13px;
+    }
+
+    &__text {
+        font-family: 'JosefinSans-Light';
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 29px;
+    }
+
+    &__img {
+        margin-bottom: 186px;
+    }
+
+}//hero

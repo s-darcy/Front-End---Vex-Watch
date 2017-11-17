@@ -1,0 +1,17 @@
+.header {
+
+    margin-bottom: 125px;
+
+    &__title {
+        font-family: 'JosefinSans-Light';
+        font-size: 25px;
+    }
+    &__navigation {
+        font-family: 'JosefinSans-SemiBold';
+        color: #000000;
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-top: 17px;
+    }
+
+} //header

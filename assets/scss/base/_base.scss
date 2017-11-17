@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'JosefinSans-Light';
+    src: url('/assets/fonts/josefin-sans/JosefinSans-Light.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'JosefinSans-Regular';
+    src: url('/assets/fonts/josefin-sans/JosefinSans-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'JosefinSans-SemiBold';
+    src: url('/assets/fonts/josefin-sans/JosefinSans-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Lora-Italic';
+    src: url('/assets/fonts/lora/Lora-Italic.ttf') format('ttf');
+}
+
+html,
+body {
+    color: #3B4045;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #000000;
+}
+
+.row {
+    width: 1150px;
+}
